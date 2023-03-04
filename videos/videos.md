@@ -1,4 +1,3 @@
-export const text = `
 
 
 ## Video is a popular medium for audience engagement. But streaming is one of the most carbon-intensive activities available to us online, and it increases a website’s carbon emissions more significantly than is true of images or text. 
@@ -21,7 +20,7 @@ When creating and uploading videos, consider the viewers. If most of the users v
 Video formats can easily confuse. For nearly all purposes on the web .mp4 provides the best compromise between support, size and quality.
 
 ### Compression
-The most commonly used video format online is “.mp4”. This format is usually compressed using H.26 or H.265 code, providing a good balance between file size and video quality. As mentioned earlier, consider compressing videos to gifs if this does not disrupt the content.
+The most commonly used video format online is “.mp4”. This format is usually compressed using H.26 or H.265 codec, providing a good balance between file size and video quality. As mentioned earlier, consider compressing videos to gifs if this does not disrupt the content.
 
 ### Tools
 - [Handbrake](https://handbrake.fr/) 
@@ -64,4 +63,3 @@ Adaptive bit rate (ABR) is a new development in video streaming on the web and w
 #### Sources
 - [Mozilla](https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Video_codecs)
 - [Video formats for the web](https://www.freecodecamp.org/news/video-formats-for-the-web/)
-`

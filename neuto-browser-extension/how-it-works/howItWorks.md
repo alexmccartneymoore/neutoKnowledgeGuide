@@ -4,7 +4,7 @@ By [Alex McCartney](https://alexmccartney.com)
 
 ### What happens
 
-Neuto Browser Extension runs two scripts in different places  each time you navigate to, or load, a webpage. One script runs in the ‘background’ and changes the colour of our icon to green or black, depending on the extent of the carbon emissions the webpage generates. The other script runs when you click on the icon to view the information about the grams of CO2e generated, alongside a tally of your total emissions during the current browsing session. We’ve also included a useful graphic to show how this webpage performs in comparison to an ‘optimised’ webpage.
+Neuto Browser Extension runs a background script in your browser each time you navigate to, or load, a webpage. After it has performed its tasks, this script changes the colour of our icon to green or black, depending on the extent of the carbon emissions that the current webpage generates. This information is stored in your browser cache and is accessed when you click on our icon to view the specific number of grams of CO2e generated, alongside a tally of your total emissions during the current browsing session. We’ve also included a useful graphic to show how this webpage performs in comparison to an ‘optimised’ webpage.
 
 ### The calculations
 
@@ -22,6 +22,8 @@ Though these are estimates, they enable us to get a rough idea of a website’s 
 
 The final formula we use looks like this: 
 
-Emissions = (( data * 0.81 ) 442 )
+Emissions = Energy(kWh) * Carbon Factor(g/kWh)
+
+Emissions = (( data * 0.81 ) * 442 )
 
 For the browser extension, we’ve had to make some additional assumptions. We are running the extension in a browser, which takes care of any caching amendments we might otherwise have to make. We’ve used only the ‘global grid’ Carbon Factor, as we don’t know what the mix of grid and renewable energy will be for any individual user. It would be possible to add this capability using data on country-specific energy mixes but it might raise privacy concerns if at some point we developed an external API to accompany the browser extension.

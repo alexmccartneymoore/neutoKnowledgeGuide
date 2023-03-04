@@ -1,6 +1,6 @@
 ## The Neuto Knowledge Guide is the place to find all the information you might need to lower your website’s carbon emissions and get started with Neuto’s toolkit.
 
-We see this guide as the beginning of a conversation about digital carbon emissions. We actively invite you to contribute and reap the benefits of open collaboration. As such, all of the Neuto Knowledge Guide is open source and we encourage everyone to join us in creating informative and accessible content.
+We see this guide as the beginning of a conversation about digital carbon emissions. We actively invite you to contribute and reap the benefits of open collaboration. As such, all of the Neuto Knowledge Guide is [open source](https://github.com/alexmccartneymoore/neutoKnowledgeGuide) and we encourage everyone to join us in creating informative and accessible content.
 
 You don’t have to be an IT expert to lower your carbon emissions online: everyone can make a difference. In our Knowledge guide you’ll find:
 
